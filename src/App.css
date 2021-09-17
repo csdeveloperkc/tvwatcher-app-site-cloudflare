@@ -1,0 +1,68 @@
+body {
+	background: #141414;
+}
+
+.tv-app {
+	height: 1000px;
+}
+
+.favs {
+	background: #2b2d2f;
+	height: 60%;
+}
+
+.search {
+	background: #006400;
+	height: 20%;
+}
+
+.shows {
+	background: #d4d2d0;
+}
+
+.row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}
+
+.page-holder {
+	min-height: 10vh;
+}
+
+.addtofav {
+	color: #fff;
+}
+
+.removefromfav {
+	color: #fff;
+}
+
+.removefromfav:hover {
+	cursor: pointer;
+}
+
+.image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
