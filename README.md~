@@ -1,5 +1,6 @@
 # TVwatcher App Site
 
-# Designed for Cloudflare Developer Summer Challenge 2021
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com csdeveloperkc/tvwatcher-app-site-cloudflare)
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/csdeveloperkc/tvwatcher-app-site-cloudflare)
+
+
