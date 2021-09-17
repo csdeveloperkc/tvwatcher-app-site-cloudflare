@@ -110,7 +110,7 @@ const App = () => {
 			</div>
 			<div className='row shows'>
           <div className='col'>
-            {searchValue && <h1 style={{color: '#fff'}}>Search Result</h1>}
+            {searchValue && <h1 style={{color: '#fff'}}>Search Results</h1>}
           </div>
           <div className='col'>
           <TvShow
