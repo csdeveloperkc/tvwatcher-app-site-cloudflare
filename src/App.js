@@ -8,7 +8,7 @@ import TvShow from './components/TvShow';
 import TvShowList from './components/TvShowList';
 
 import default_img from './assets/tvshow-original-wallpaper.png';
-import logo from '.assets/klc_logo.png';
+import logo from './assets/klc_logo.png';
 
 
 const App = () => {
