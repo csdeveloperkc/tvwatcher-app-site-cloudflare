@@ -1,6 +1,10 @@
 body {
 	background: #141414;
 }
+.header_logo {
+   height: 50px;
+   float: left;
+}
 
 .tv-app {
 	height: 1000px;

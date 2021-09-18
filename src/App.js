@@ -8,6 +8,7 @@ import TvShow from './components/TvShow';
 import TvShowList from './components/TvShowList';
 
 import default_img from './assets/tvshow-original-wallpaper.png';
+import logo from '.assets/klc_logo.png';
 
 
 const App = () => {
@@ -89,6 +90,7 @@ const App = () => {
       <div className="page-holder">
         <div className="container py-2">
           <header className="text-center py-2">
+            <img src={logo} className='header_logo'/>
             <h1 className="display-4 font-weight-bold text-white mb-4">TVwatcher App Site</h1>
           </header>
         </div>
