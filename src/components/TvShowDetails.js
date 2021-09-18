@@ -17,7 +17,7 @@ const TvShowDetails = (props) => {
     if(summary.length){
         summary = summary.replace(/<\/?[^>]+(>|$)/g, "");
 
-        summary = summary.length > max_summary ? summary.substring(0, max_summary) + '...' : summary;
+        // summary = summary.length > max_summary ? summary.substring(0, max_summary) + '...' : summary;
     }
 
 
