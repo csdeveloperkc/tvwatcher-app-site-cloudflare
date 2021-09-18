@@ -1,6 +1,11 @@
 import React from 'react';
+import TvShowDetails from './components/TvShowDetails';
+
 
 const TvShowList = (props) => {
+
+    const [showDetails,setShowDetails] = useState(false);
+
     return (
         <>
                 <div>
@@ -10,7 +15,10 @@ const TvShowList = (props) => {
                                 return (
                                     <>
                                     <div className="col-sm-2">
-                                     <img src={val.image['medium']} alt='movie'></img>
+                                     <img src={val.image['medium']} alt='movie' onClick={() => setShowDetails(true)}/>
+                                     <TvShowDetails
+                                        showDetails={showDetails}
+                                     />
                                      <div
                                         onClick={() => props.handleFavoriteClick(val)}                                        
                                     >
