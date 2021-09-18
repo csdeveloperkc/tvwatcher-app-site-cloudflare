@@ -14,8 +14,7 @@ const App = () => {
   const [tvShow, setTvShow] = useState([]);
   const [favorites, setFavorites] = useState([]);
 	const [searchValue, setSearchValue] = useState('');
-  const baseUrl = 'https://api.tvmaze.com';
-
+ 
   /*
 	const getMovieRequest = async (searchValue) => {
 		const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=263d22d8`;

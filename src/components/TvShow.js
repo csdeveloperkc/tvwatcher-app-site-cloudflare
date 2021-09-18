@@ -1,8 +1,7 @@
 import React from 'react';
 
 const TvShow = (props) => {
-	if(props.tvshow.id != undefined){
-
+	if(props.tvshow.id !== undefined){
 		var network = (props.tvshow.network == null) ? props.tvshow.webChannel['name'] : props.tvshow.network['name'];
 
 		var max_summary = 250;
