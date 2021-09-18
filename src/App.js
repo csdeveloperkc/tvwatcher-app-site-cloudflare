@@ -89,8 +89,9 @@ const App = () => {
 		<div className='container-fluid tv-app'>
       <div className="page-holder">
         <div className="container py-2">
+          <img src={logo} className='header_logo' alt={"logo"}/>
           <header className="text-center py-2">
-            <img src={logo} className='header_logo' alt={"logo"}/>
+            
             <h1 className="display-4 font-weight-bold text-white mb-4">TVwatcher App Site</h1>
           </header>
         </div>
