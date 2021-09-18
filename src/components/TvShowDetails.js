@@ -3,7 +3,7 @@ import React from 'react';
 const TvShowDetails = (props) => {
     if(!props.showDetails)
     {
-        return;
+        return null;
     }
 
     return (
