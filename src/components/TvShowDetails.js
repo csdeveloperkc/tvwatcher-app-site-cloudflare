@@ -6,6 +6,11 @@ const TvShowDetails = (props) => {
         return null;
     }
 
+    if(props.showDetails !== props.id)
+    {
+        return null;
+    }
+
     var max_summary = 250;
     var summary = props.tvshow.summary;
 

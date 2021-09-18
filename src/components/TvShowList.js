@@ -15,8 +15,9 @@ const TvShowList = (props) => {
                                 return (
                                     <>
                                     <div className="col-sm-2">
-                                     <img src={val.image['medium']} alt='movie' onClick={() => setShowDetails(true)}/>
+                                     <img src={val.image['medium']} alt='movie' onClick={() => setShowDetails(val.id)}/>
                                      <TvShowDetails
+                                        id={val.id}
                                         showDetails={showDetails}
                                         tvshow={val}
                                         onClose={() => setShowDetails(false)}
