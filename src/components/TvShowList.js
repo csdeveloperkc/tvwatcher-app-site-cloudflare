@@ -1,5 +1,5 @@
 import React from 'react';
-import TvShowDetails from './components/TvShowDetails';
+import TvShowDetails from './TvShowDetails';
 
 
 const TvShowList = (props) => {
