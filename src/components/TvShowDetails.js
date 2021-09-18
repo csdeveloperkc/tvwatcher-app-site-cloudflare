@@ -17,7 +17,7 @@ const TvShowDetails = (props) => {
                         Modal Body HERE
                     </div>
                     <div className='modal-footer'>
-                        <button className='button'>Close</button>
+                        <button onClick={props.onClose} className='button'>Close</button>
                     </div>
                 </div>
             </div>

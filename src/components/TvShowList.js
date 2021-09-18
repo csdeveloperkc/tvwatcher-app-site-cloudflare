@@ -18,6 +18,7 @@ const TvShowList = (props) => {
                                      <img src={val.image['medium']} alt='movie' onClick={() => setShowDetails(true)}/>
                                      <TvShowDetails
                                         showDetails={showDetails}
+                                        onClose={() => setShowDetails(false)}
                                      />
                                      <div
                                         onClick={() => props.handleFavoriteClick(val)}                                        
