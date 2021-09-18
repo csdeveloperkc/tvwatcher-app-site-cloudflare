@@ -90,7 +90,7 @@ const App = () => {
       <div className="page-holder">
         <div className="container py-2">
           <header className="text-center py-2">
-            <img src={logo} className='header_logo'/>
+            <img src={logo} className='header_logo' alt={"logo"}/>
             <h1 className="display-4 font-weight-bold text-white mb-4">TVwatcher App Site</h1>
           </header>
         </div>
