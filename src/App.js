@@ -103,13 +103,13 @@ const App = () => {
 				<div className='p-2'>
           <h1 style={{color: '#fff'}}>Favorites</h1>
         </div>
-        <div className='p-2'>
+        <div className='p-2' style={{position: 'absolute', width: '100%', height: '100%'}}>
           { favorites.length > 0 
            ? <TvShowList
               tvshowList={favorites}
               handleFavoriteClick={removeFromFavorite}
             />
-           : <img style={{height: 500}} src={default_img} alt={"default img"}/>
+           : <img className="default_img" src={default_img} alt={"default img"}/>
           }
         </div>
 			</div>

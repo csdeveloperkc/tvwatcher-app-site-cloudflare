@@ -66,6 +66,14 @@ body {
 	padding: 20px;
 	text-align: center;
 }
+
+.default_img {
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 /* Pop-up Modal box styling */
 .modal {
 	position: fixed;
