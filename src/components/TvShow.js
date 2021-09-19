@@ -16,7 +16,7 @@ const TvShow = (props) => {
 			<>
 				<div className='image-container row d-flex justify-content-start m-3'>
 					<div className="col-sm">
-					 <img src={props.tvshow.image['medium']} alt='movie'></img>
+					 <img className="show_search_poster" src={props.tvshow.image['medium']} alt='movie'></img>
 					</div>
 					<div className='col-sm'>
 						<div class="card" style={{width: '18rem'}}>

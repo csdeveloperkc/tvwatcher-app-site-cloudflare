@@ -118,7 +118,23 @@ body {
 		width: 300%;
 	}
 
+	.favs {
+		height: 25%;
+	}
+
 	.col-sm-2 {
 		width: 20% !important;
+	}
+
+	.fav_poster {
+		width: 100px;
+	}
+
+	.show_search_poster {
+		width: 100px;
+	}
+
+	.card {
+	   width: 12rem !important;
 	}
 }
