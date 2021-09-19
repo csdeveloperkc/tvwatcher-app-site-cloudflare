@@ -11,7 +11,7 @@ const TvShowDetails = (props) => {
         return null;
     }
 
-    var max_summary = 250;
+    // var max_summary = 250;
     var summary = props.tvshow.summary;
 
     if(summary.length){
