@@ -118,6 +118,10 @@ body {
 		width: 300%;
 	}
 
+	.default_img {
+		width: 189px;
+	}
+
 	.favs {
 		height: 25%;
 	}
