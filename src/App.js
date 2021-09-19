@@ -103,7 +103,7 @@ const App = () => {
 				<div className='p-2'>
           <h1 style={{color: '#fff'}}>Favorites</h1>
         </div>
-        <div className='p-2' style={{position: 'absolute', width: '100%', height: '100%'}}>
+        <div className='p-5' style={{position: 'absolute'}}>
           { favorites.length > 0 
            ? <TvShowList
               tvshowList={favorites}
